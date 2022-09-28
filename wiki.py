@@ -13,7 +13,7 @@ ab = Dispatcher(bot)
 
 @ab.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-    await message.reply("Assalomu aleykum Wikipedia Botiga/n Xush Kelibsiz!")
+    await message.reply("Assalomu aleykum Wikipedia Botiga\n Xush Kelibsiz!")
 
 
 @ab.message_handler(commands=['help'])
